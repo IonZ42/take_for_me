@@ -1,0 +1,67 @@
+<view id="t">
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="reward-description">
+    <view class="section_title">昵称：</view>
+    <input name="inputName" placeholder="外卖单上显示的姓名" value="{{receiverName}}" />
+  </view>
+
+  <view class="reward-description">
+    <view class="section_title">手机尾号：</view>
+    <input name="inputMobile" type="digit" placeholder="手机号后四位" value="{{receiverMobileTail}}" />
+  </view>
+  
+  <view class="reward-description">
+    <view class="section_title">(选填)商品描述：</view>
+    <input name="inputDesc" placeholder="例：XX麻辣烫" value="{{foodDescription}}" />
+  </view>
+
+<!--下面两个预显示的值不对-->
+  <view class="reward-description">
+    <view class="section_title">去哪拿:
+      <picker-view indicator-style="height: 50rpx;" style="width: 100%; height:120rpx;" value="{{value0}}" bindchange="bindChange0" class="section_title">
+        <picker-view-column>
+          <view wx:for="{{locations}}" style="line-height: 50rpx">{{item}}</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+
+  <view class="reward-description">
+    <view class="section_title">送到哪:
+      <picker-view indicator-style="height: 50rpx;" style="width: 100%; height:120rpx;" value="{{value1}}" bindchange="bindChange1" class="section_title">
+        <picker-view-column>
+          <view wx:for="{{buildings}}" style="line-height: 50rpx">{{item}}楼</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+
+  <view class="reward-description">
+    <view class="section_title">楼层房间号：</view>
+    <input name="inputAddr" placeholder="例：1，111" value="{{detailAddress}}" />
+  </view>
+
+  <view class="reward-description">
+    <view class="section_title">预计送达时间:
+      <picker-view indicator-style="height: 50rpx;" style="width: 100%; height:120rpx;" value="{{value2}}" bindchange="bindChange2" class="section_title">
+        <picker-view-column>
+          <view wx:for="{{hours}}" style="line-height: 50rpx">{{item}}时</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{minutes}}" style="line-height: 50rpx">{{item}}分</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+
+  <view class="reward-description">
+    <view class="section_title">(选填)备注：</view>
+    <input name="inputNote" placeholder="例：帮我放门口，谢谢" value="{{note}}" />
+  </view>
+
+  <view class="reward-description">
+    <button formType="submit" type='primary'>确认提交</button>
+    <!--<button formType="reset">清空表单</button>-->
+  </view>
+</form>
+</view>

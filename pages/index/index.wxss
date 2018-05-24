@@ -1,0 +1,46 @@
+.record_block {
+    width: 90%;
+    margin: 20rpx auto 80rpx auto;
+    background-color: red;
+}
+
+.record_left {
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    display: block;
+}
+
+.title {
+    height: 50rpx;
+    background-color: green;
+}
+
+.detail {
+    height: 200rpx;
+    background-color: blueviolet;
+}
+
+.deadline {
+    height: 50rpx;
+    background-color: yellow;
+}
+
+.attribute {
+}
+
+image {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+}
+
+text {
+    float: left;
+}
+
+page {
+    background-color: #cccccc;
+}
+
+

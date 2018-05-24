@@ -1,0 +1,58 @@
+.section__title {
+  width: 100%;
+  padding: 15rpx;
+}
+
+.info_item{
+  margin: 15rpx;
+}
+.reward-description {
+  margin: 15rpx;
+}
+
+#pr {
+  background-color: "ffffff";
+}
+
+.picker-view {
+  border: 1rpx solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx;
+  width: 440rpx;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.reward-description input {
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1rpx solid lightgrey;
+}
+
+.btn-area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-area button {
+  border-radius: 0;
+}
+/*
+
+.section {
+  display: flex;
+  margin: 15rpx;
+}
+
+.reward-description .section_title {
+  padding: 15rpx;
+}
+
+.select-icon {
+  height: 20rpx;
+  width: 34rpx;
+}
+
+*/

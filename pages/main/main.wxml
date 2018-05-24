@@ -1,0 +1,20 @@
+<!--pages/main/main.wxml-->
+<view id="main">
+  <view class="main-page">
+    <view class="main-page-btns">
+      <button type="primary" bindtap="load_myRewards" style="background-color:rgb(38,188,213);"> 我的悬赏 </button>
+    </view>
+
+    <view class="main-page-btns">
+      <button type="primary" bindtap="load_postReward" style="background-color:rgb(254,67,101);"> 人人为我 </button>
+    </view>
+
+    <view class="main-page-btns">
+      <button type="primary" bindtap="load_pullReward" style="background-color:rgb(244,208,0);"> 我为人人 </button>
+    </view>
+
+    <view class="section__title">
+      <text>您的积分：{{point}}</text>
+    </view>
+  </view>
+</view>

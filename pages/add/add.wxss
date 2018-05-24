@@ -1,0 +1,6 @@
+input {
+    width: 80%;
+    background-color: #ddd;
+    border-style: solid;
+    margin: 20rpx auto;
+}

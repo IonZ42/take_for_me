@@ -1,0 +1,47 @@
+<view id="mr">
+  <view class="my-rewards">
+    <view class="section__title">我发布的悬赏：
+    <view class="blank"></view>
+      <scroll-view class="scroll" scroll-y="true">
+        <block wx:if="{{infos.length}}">
+          <scroll-view class="container" scroll-y="true">
+            <view class="info panel">
+              <view class="info_item" wx:for="{{infos}}" wx:for-item="info" bindtap='load_myPostedRewards' data-index="{{index}}">
+                <text class="info_text">{{info.foodDescription}}  赏金{{info.bounty}}积分  {{info.hour+":"+info.minute}}</text>
+              </view>
+            </view>
+          </scroll-view>
+
+        </block>
+        <block wx:else>
+          <view class="nodata">
+            <text class="nodata_text">暂无记录</text>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+
+
+
+    <view class="section__title">我接受的悬赏：
+    <view class="blank"></view>
+      <scroll-view class="scroll" scroll-y="true">
+        <block wx:if="{{rewards.length}}">
+          <scroll-view class="container" scroll-y="true">
+            <view class="reward panel">
+              <view class="reward_item" wx:for="{{rewards}}" wx:for-item="reward" bindtap='load_myPostedRewards' data-index="{{index}}">
+                <text class="reward_text">{{reward.food_description}}  赏金{{reward.bounty}}积分  {{reward.hour+":"+reward.minute}}</text>
+              </view>
+            </view>
+          </scroll-view>
+
+        </block>
+        <block wx:else>
+          <view class="nodata">
+            <text class="nodata_text">暂无记录</text>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </view>
+</view>

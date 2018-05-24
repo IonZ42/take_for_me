@@ -1,0 +1,33 @@
+<view id="mpr">
+<view class="my-posted-rewards">
+  <view class="my-posted-rewards">
+    <view class="section__title">商品描述：
+      <text>{{foodDescription}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">悬赏状态：
+      <text>{{rewardState}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">预计送达时间：
+      <text>{{hour}}:{{minute}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards-btns">
+    <button bindtap="deliverSuccess" type='primary' style="background-color:rgb(38,188,213);">确认外卖已送达</button>
+  </view>
+  
+  <view class="my-posted-rewards-btns">
+    <button bindtap="moveToChange" type='primary' style="background-color:rgb(254,67,101);">修改悬赏内容</button>
+  </view>
+
+  <view class="my-posted-rewards-btns">
+    <button bindtap="rewardSuccess" type='primary' style="background-color:rgb(244,208,0);">确认任务已完成</button>
+  </view>
+</view>
+</view>

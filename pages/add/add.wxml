@@ -1,0 +1,11 @@
+<form bindsubmit="submitRecord">
+    <input type="text" name="title" value="辣题目" maxlength="50" />
+    <input type="text" name="detail" value="辣内容" maxlength="300" />
+    <input type="text" name="deadline" value="除了辣" maxlength="20" />
+    <button form-type="submit">留辣言</button>
+</form>
+
+<view><text>User name: </text>{{username}}<text></text></view>
+<view><text>Phone number: </text><text>{{phone_number}}</text></view>
+<view><text>Address: </text></view>
+<button bindtap="seizeUserInfo">获取用户相关信息</button>

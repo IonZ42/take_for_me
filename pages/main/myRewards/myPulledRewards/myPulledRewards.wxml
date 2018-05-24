@@ -1,0 +1,51 @@
+<view id="mpr">
+<view class="my-posted-rewards">
+  <view class="my-posted-rewards">
+    <view class="section__title">老伙计的昵称：
+      <text>{{receiverName}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">手机尾号：
+      <text>{{receiverMobileTail}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title" hidden="!foodDescription">商品描述：
+      <text>{{foodDescription}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title" hidden="!note">备注：
+      <text>{{note}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">从哪拿：
+      <text>{{location}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">送到哪：
+      <text>{{building}} {{detailAddress}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">预计送达时间：
+      <text>{{hour}}:{{minute}}</text>
+    </view>
+  </view>
+
+  <view class="my-posted-rewards">
+    <view class="section__title">赏金额度：
+      <text>{{bounty}}</text>
+    </view>
+  </view>
+</view>
+</view>

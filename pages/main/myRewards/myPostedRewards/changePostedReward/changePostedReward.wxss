@@ -1,0 +1,54 @@
+.btn-area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-area button {
+  border-radius: 0;
+}
+
+.section__title {
+  width: 200rpx;
+  padding: 15rpx;
+}
+
+.picker-view {
+  border: 1rpx solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx;
+  width: 440rpx;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.reward-description {
+  margin: 15rpx;
+}
+
+.reward-description input {
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1rpx solid lightgrey;
+}
+
+#cpr {
+  background-color: "#66ccff";
+}
+
+/*
+.select-icon {
+  height: 20rpx;
+  width: 34rpx;
+}
+
+.section {
+  display: flex;
+  margin: 15rpx;
+}
+.reward-description .section_title {
+  padding: 15rpx;
+}
+
+*/

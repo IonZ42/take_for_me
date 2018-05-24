@@ -1,0 +1,21 @@
+/* pages/main/main.wxss */
+#main{
+  background-color: "ffffff";
+}
+
+.main-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-page-btns{
+  justify-content: center;
+  margin-bottom:30rpx;
+  width: 100%;
+}
+
+.section__title {
+  width: 100%;
+  padding: 15rpx;
+}

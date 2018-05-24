@@ -1,0 +1,82 @@
+#mr {
+}
+
+.btn-area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-area button {
+  border-radius: 0;
+}
+
+.scroll {
+  height: 450rpx;
+}
+
+.section {
+  display: flex;
+  margin: 15rpx;
+}
+
+.info_item {
+  border: 1rpx solid lightgrey;
+  height: 100rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.blank{
+  height: 50rpx;
+}
+
+.section__title {
+  width: 100%;
+  margin: 15rpx;
+  bottom: 150rpx;
+}
+
+.scroll-view-item {
+  width: 100%;
+  padding: 15rpx;
+  bottom: 5rpx;
+}
+
+
+.picker-view {
+  border: 1rpx solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx;
+  width: 440rpx;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.my-rewards {
+  margin: 15rpx;
+}
+
+.my-rewards .section_title {
+  padding: 15rpx;
+}
+
+.my-rewards input {
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1rpx solid lightgrey;
+}
+
+.select-icon {
+  height: 20rpx;
+  width: 34rpx;
+}
+
+.slider-handle {
+  height: 200rpx;
+}
+
+/*
+*/

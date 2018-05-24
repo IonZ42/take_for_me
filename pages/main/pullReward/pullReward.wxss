@@ -1,0 +1,59 @@
+#t{
+  background-color: "#66ccff";
+}
+.info_item {
+  border: 1rpx solid lightgrey;
+  height: 100rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.section__title {
+  width: 100%;
+  padding: 15rpx;
+}
+
+.picker-view {
+  border: 1rpx solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 15rpx;
+  width: 440rpx;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.pull-Reward {
+  margin: 15rpx;
+}
+
+.pull-Reward .section_title {
+  padding: 15rpx;
+}
+
+.btn-area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-area button {
+  border-radius: 0;
+}
+
+.section {
+  display: flex;
+  margin: 15rpx;
+}
+
+.reward-description input {
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1rpx solid lightgrey;
+}
+
+.select-icon {
+  height: 20rpx;
+  width: 34rpx;
+}

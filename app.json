@@ -1,0 +1,30 @@
+{
+    "pages": [
+      "pages/main/main",
+      "pages/main/myRewards/myRewards",
+      "pages/main/myRewards/myPostedRewards/myPostedRewards",
+      "pages/main/myRewards/myPostedRewards/changePostedReward/changePostedReward",
+      "pages/main/myRewards/myPulledRewards/myPulledRewards",
+      "pages/main/postReward/postReward",
+      "pages/main/pullReward/pullReward"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "顺便",
+        "navigationStyle": "default",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+    },
+    "networkTimeout": {
+        "request": 60000,
+        "connectSocket": 60000,
+        "uploadFile": 60000,
+        "downloadFile": 60000
+    },
+    "debug": true,
+    "usingComponents": {
+      "slider-left": "components/slider-left/index"
+    }
+}
